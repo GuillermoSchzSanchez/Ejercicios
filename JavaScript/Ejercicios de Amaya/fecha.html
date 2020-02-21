@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>metodos de fecha</title>
+</head>
+<body>
+    <script>
+    var fecha = new Date();
+    // alert ("La fecha actual es: " + fecha);
+    
+    var annoCompleto = fecha.getFullYear();
+    document.write ("La fecha completa es: " + fecha + "<br>");
+
+    var annoNormal = fecha.getYear();
+    document.write ("El año completo es: " + annoNormal + "<br>");
+
+    var mesNumero = fecha.getMonth();
+    document.write ("El mes completo es: " + mesNumero + "<br>");
+
+    var diasMesNumero = fecha.getDate();
+    document.write ("El día del mes es: " + diasMesNumero + "<br>");
+
+    var diaSemanaNumero = fecha.getDay();
+    document.write ("El día de la semana es: " + diaSemanaNumero + "<br>");
+
+    var hora = fecha.getHours();
+    document.write ("La hora es: " + hora + "<br>");
+
+    var minuto = fecha.getMinutes();
+    document.write ("Los minutos son: " + minuto + "<br>");
+
+    var segundo = fecha.getSeconds();
+    document.write ("Los segundos son: " + segundo + "<br>");
+
+    var milisegundows = fecha.getMilliseconds();
+    document.write ("Los milisegundos son: " + milisegundows + "<br>");
+
+    var miliMarca = fecha.getTime();
+    document.write ("Desde el 1 de enero de 1970 han transcurrido:" + miliMarca);
+    </script>
+</body>
+</html>

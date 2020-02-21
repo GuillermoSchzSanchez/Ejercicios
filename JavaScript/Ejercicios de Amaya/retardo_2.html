@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>retardo en horas</title>
+    
+</head>
+<body>
+    <script type="text/javascript">
+
+    var fecha_1= new Date();
+    var respuesta = prompt ("¿Quién descubrió américa?", "");
+    var fecha_2= new Date();
+    var tiempo = fecha_2 - fecha_1;
+
+
+if (tiempo > 999) {//Si hay más de un segundo
+    var segundos = parseInt(tiempo/1000);
+    tiempo -= (segundos*1000);
+}else{
+    var segundos = 0;
+}
+
+if ( segundos > 59){ // si hay más de un minuto.
+    var minutos = parseInt(segundows/60);
+    segundos -= (minutos*60);
+}else{
+    minutos = 0;
+}
+
+    document.write ("Ha tardado "+ minutos + " minutos, "+segundos+ " segundos," +tiempo+ "milisegundos " , " -Enhorabuena, 1492 descubrió américa en el año Cristobal Colón, eres muy INTELIGENTE 😁😁😁.");
+
+
+
+
+
+    var fecha_1= new Date();
+    var respuesta = prompt ("¿Quién es ...?", "");
+    var fecha_2= new Date();
+    var tiempo = fecha_2 - fecha_1;
+
+
+if (tiempo > 999) {//Si hay más de un segundo
+    var segundos = parseInt(tiempo/1000);
+    tiempo -= (segundos*1000);
+}else{
+    var segundos = 0;
+}
+
+if ( segundos > 59){ // si hay más de un minuto.
+    var minutos = parseInt(segundows/60);
+    segundos -= (minutos*60);
+}else{
+    minutos = 0;
+}
+
+    document.write ("Ha tardado en averiguar quien es esta persona "+ minutos + " minutos, "+segundos+ " segundos," +tiempo+ "milisegundos " , " -Amigoooooooooooooooooooooooo😁😁😁😁😁😁😁😁😁😁😁😁😄😄😄😄😄😄😄.");
+
+
+
+
+    var fecha_1= new Date();
+    var respuesta = prompt ("¿Quién es ...?", "");
+    var fecha_2= new Date();
+    var tiempo = fecha_2 - fecha_1;
+
+
+if (tiempo > 999) {//Si hay más de un segundo
+    var segundos = parseInt(tiempo/1000);
+    tiempo -= (segundos*1000);
+}else{
+    var segundos = 0;
+}
+
+if ( segundos > 59){ // si hay más de un minuto.
+    var minutos = parseInt(segundows/60);
+    segundos -= (minutos*60);
+}else{
+    minutos = 0;
+}
+
+    document.write ("Ha tardado en averiguar quien es esta persona "+ minutos + " minutos, "+segundos+ " segundos," +tiempo+ "milisegundos " , " -El que le encanta jugar al battlefront 2 🤖🤖🤖🤖🤖🤖.");
+
+    alert ("Se acabó, ya no se contesta MÁS 😡😡😡😡😡😡😡😡😡😡")
+
+
+
+    function closeCurrentWindow(){
+
+  window.close();
+}
+
+
+    </script>
+<input type="button" value="Adiós" onclick="closeCurrentWindow();">
+
+
+</body>
+</html>

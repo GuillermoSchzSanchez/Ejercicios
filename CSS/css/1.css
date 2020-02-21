@@ -1,0 +1,87 @@
+body {
+  background: linear-gradient(to top, white, blue);
+  /*background-image: url("images.jpg");
+  background-size: cover;*/
+}
+
+h1 {
+  color: navy;	
+  margin-left: 20px;
+  background-color: green;
+  margin-right: 50%;
+
+
+
+
+}
+h2 {
+  color: red;	
+  margin-left: 40px;
+  background-color: purple;
+  margin-right: 50%;
+
+}
+
+h3 {
+  color: blue;	
+  margin-left: 60px;
+  background-color: lightblue;
+  margin-right: 50%;
+
+
+}
+
+h4 {
+  color: orange;	
+  margin-left: 80px;
+  background-color: Violet;
+  margin-right: 50%;
+
+
+}
+
+h5 {
+  color: gold;	
+  margin-left: 100px;
+  background-color: Orange;
+  margin-right: 50%;
+
+
+}
+
+h6 {
+  color: #3cb371;	
+  margin-left: 120px;
+  background-color: red;
+  margin-right: 50%;
+
+}
+
+
+p {
+  background-color: black;
+  color: silver;
+  border-style: solid;
+   border-style: solid;
+  border-width: 2px 10px 4px 20px;
+  border-color: yellow;
+  border-bottom-style: dotted;
+  border-top-style: dotted;
+  margin: 25px 50px 75px;
+  padding-top: 50px;
+  padding-right: 30px;
+  padding-bottom: 50px;
+  padding-left: 80px;
+}
+
+.rojo {
+	color: red;
+}
+
+.verde {
+	color: green;
+}
+
+#pepe {
+	color: blue;
+}

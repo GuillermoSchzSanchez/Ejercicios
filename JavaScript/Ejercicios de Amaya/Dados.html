@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Dados</title>
+</head>
+<body>
+    <script>
+
+    function dados(){
+        
+        var resultado=0;
+        
+        do{
+            resultado = parseInt (Math.random()*10);
+        }
+        while (resultado<1 || resultado >6);
+        
+        alert ("El resultado es; " +resultado);
+    }
+    </script>
+
+    <input type="button" value="LANZAR DADOS" onclick="dados();">
+</body>
+</html>

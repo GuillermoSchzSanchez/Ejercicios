@@ -1,0 +1,25 @@
+
+body{
+	background-color: gray;
+}
+
+
+h1{
+	font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-size:40px;
+	background-color:tomato;
+	margin:0;
+	color:#003366;
+}
+#texto{
+	margin-top:50%;
+	width:340px;
+	height:auto;
+	float:right;
+}
+
+form{
+	font-size:20px;
+	background-color:lightblue;
+
+}

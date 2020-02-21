@@ -1,0 +1,239 @@
+body{
+    font-family: georgia, times, serif;
+    color: #333;
+    font-size: 1.2rem;/*tamaño de la letra*/
+    line-height: 1.6em;/*alto de línea*/
+    margin: 0;
+}
+h1{
+    font-size: 2rem;
+    line-height: 1.3em;
+
+}
+
+
+p{
+    margin-bottom: 1.6em;
+}
+
+
+
+
+.container{
+    width: 85%;
+    max-width: 850px;
+    margin: 0 auto;
+}
+
+.header{
+    background: #333;
+    color: #fff;
+    padding: 2rem 0;
+    position: fixed; /* sacar el elemento del html y lo fija en la pantalla*/
+    left:0;
+    top:0;
+    width: 100%;
+    right: 0;/* tambien se pude poner ancho total*/
+}
+
+.header a{
+    color:#fff;
+    text-decoration: none;
+}
+
+
+.logo-nav-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+
+.navigation ul{
+    margin:0;
+    padding: 0;
+    list-style: none;
+}
+
+.logo{
+    letter-spacing: 5px;
+    font-size: 1.3em;
+}
+
+.menu-icon{
+    display: none;
+}
+
+.navigation ul li{
+    display: inline-block;
+}
+
+.navigation ul li a{
+    display: block;
+    padding: 0.5rem 1rem;
+    transition: all 0.4s linear;
+    border-radius: 5px;
+}
+
+.navigation ul li a:hover{
+    background: #4a4a4a;
+}
+
+.main{
+    padding-top: 10em;
+}
+
+
+
+
+
+
+
+.container2{
+    width: 85%;
+    max-width: 850px;
+    margin: 0 auto;
+}
+
+.footer2 {
+    text-align: center;
+    font-family: sans-serif;
+    color: whitesmoke;
+    width: 100%;
+    bottom: 0;
+    position:fixed;
+    background: #333;
+}
+
+
+.footer2 a{
+    color:#fff;
+    text-decoration: none;
+}
+
+
+.logo-nav-container2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+
+.navigation2 ul{
+    margin:0;
+    padding: 0;
+    list-style: none;
+}
+
+.logo2{
+    letter-spacing: 5px;
+    font-size: 1.3em;
+}
+
+.menu-icon2{
+    display: none;
+}
+
+.navigation2 ul li{
+    display: inline-block;
+}
+
+.navigation2 ul li a{
+    display: block;
+    padding: 0.5rem 1rem;
+    transition: all 0.4s linear;
+    border-radius: 5px;
+}
+
+.navigation2 ul li a:hover{
+    background: #4a4a4a;
+}
+
+.main2{
+    padding-top: 10em;
+}
+
+
+
+
+
+
+
+@media only screen and (max-width: 767px){
+    
+    .menu-icon{
+        display: block;
+        cursor:pointer;
+        padding: 0.5rem 1rem;
+    }
+    
+    .navigation{
+        width: 100%;
+        margin-top: 1rem;
+    }
+
+    .navigation ul li{
+        display: block;
+    }
+
+    .navigation ul{
+        display: none;
+    }
+    
+    .navigation ul.show{
+        display: block;
+    }
+    
+    .navigation ul li a{
+        display: block;
+        padding: 0.5rem;
+        transition: all 0.4s linear;
+        border-radius: 5px;
+    }
+    
+    .navigation ul li a:hover{
+        background: #4a4a4a;
+    }
+}
+
+
+
+
+@media only screen and (max-width: 767px){
+    
+    .menu-icon2{
+        display: block;
+        cursor:pointer;
+        padding: 0.5rem 1rem;
+    }
+    
+    .navigation2{
+        width: 100%;
+        margin-top: 1rem;
+    }
+
+    .navigation2 ul li{
+        display: block;
+    }
+
+    .navigation2 ul{
+        display: none;
+    }
+    
+    .navigation2 ul.show{
+        display: block;
+    }
+    
+    .navigation2 ul li a{
+        display: block;
+        padding: 0.5rem;
+        transition: all 0.4s linear;
+        border-radius: 5px;
+    }
+    
+    .navigation2 ul li a:hover{
+        background: #4a4a4a;
+    }
+}

@@ -1,0 +1,21 @@
+.borde {
+    background-color: gray;
+    height: 200px;
+}
+
+.borde1 {
+    background-color: aquamarine;
+}
+
+.borde2 {
+    background-color: rgb(255, 127, 223);
+}
+
+.borde3 {
+    background-color: rgb(127, 136, 255);
+}
+
+.height-container {
+    height: 200px;
+    background-color: cadetblue;
+}

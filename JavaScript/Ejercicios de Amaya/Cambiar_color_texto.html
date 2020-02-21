@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Función_cambiar_color_texto</title>
+
+<script>
+    //Esta función sirve para cambiar el color que yo quiera con una sola función//
+function cambiarColor(colorFondo, colorTexto){
+    document.bgColor = colorFondo;
+    document.fgColor = colorTexto;
+}
+
+
+document.write ("<h1>texto para pruebas</h1>")
+
+
+
+
+</script>
+</head>
+<body>
+    <input type="button" value="cambiarColor" onclick="cambiarColor('red','blue');">
+    <input type="button" value="cambiarColor" onclick="cambiarColor('green','red');">
+    <input type="button" value="cambiarColor" onclick="cambiarColor('blue','black');">
+    <input type="button" value="cambiarColor" onclick="cambiarColor('yellow','white');">
+    <input type="button" value="cambiarColor" onclick="cambiarColor('black','yellow');">
+    <input type="button" value="cambiarColor" onclick="cambiarColor('white','black');">
+</body>
+</html>
